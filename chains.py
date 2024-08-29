@@ -5,10 +5,6 @@ load_dotenv()
 from langchain.prompts.prompt import PromptTemplate
 from langchain_openai import ChatOpenAI
 
-from langchain_core.pydantic_v1 import BaseModel, Field
-from langchain.output_parsers import PydanticOutputParser
-from typing import Tuple
-
 llm = ChatOpenAI(temperature=0)
 
 prompt_template = """
