@@ -8,6 +8,9 @@ langchain = "*"
 python-dotenv = "*"
 langchain-openai = "*"
 langchain-community = "*"
+langgraph = "*"
+langchain-pinecone = "*"
+pypdf = "*"
 
 [dev-packages]
 
